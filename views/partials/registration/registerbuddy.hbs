@@ -1,0 +1,103 @@
+<div class="container">
+    <div class="apply_box">
+        <h1>
+            Buddy Application Form
+            <span class="title_small"></span>
+        </h1>
+        <form action="/register-buddy" method="post" enctype="multipart/form-data">
+            <div class="form_cointainer">
+                <div class="form_control">
+                    <label for="First_Name">Full Name</label>
+                    <input id="Full_Name" name="Buddyname" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form_control">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="email" placeholder="Enter Email...." required>
+                </div>
+                <div class="form_control">
+                    <label for="Date of birth">Date of birth</label>
+                    <input type="date" id="Date" name="Dob" required>
+                </div>
+                <div class="form_control">
+                    <label for="city">City</label>
+                    <input id="City" name="city" placeholder="Enter City" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="genderprefered"> Gender </label>
+                    <label for="" class="radio inline">
+                        <input type="radio" name="gender" value="male" >
+                        <span>Male</span>
+                    </label>
+                    <label for="" class="radio inline">
+                        <input type="radio" name="gender" value="female" >
+                        <span>Female</span>
+                    </label>
+                </div>
+
+                <div class="form_control">
+                    <label for="pin code">Pin Code</label>
+                    <input type="number" id="Pin_Code" name="pincode" placeholder="Pin code" required>
+                </div>
+                <div class="form_control">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" id="Occupation" name="occupatioon" placeholder="Enter Occupation" required>
+                    
+                </div>
+                <div class="form_control">
+                    <label for="Religion">Religion</label>
+                    <input type="text" id="religion" name="religion" placeholder="Enter religion....">
+                </div>
+                <div class="form_control">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" placeholder="Enter country name....">
+                </div>
+                <div class="form_control">
+                    <label for="Hobby">Hobby</label>
+                    <input type="text" id="Hobby" name="Hobby" placeholder="Enter Hobby....">
+                </div>
+                <div class="form_control">
+                    <label for="address">Address</label>
+                    <input type="text" id="Area_known" name="address"
+                        placeholder="Enter your address....">
+                </div>
+                <div class="form_control">
+                    <label for="language_known">language known</label>
+                    <input type="text" id="language_known" name="language_known"
+                        placeholder="Enter language known....">
+                </div>
+                <div class="form_control">
+                    <label for="contactno">Mobile No: </label>
+                    <input type="text" id="contactNo" name="contactNo" placeholder="Enter Mobile No....">
+                </div>
+                <div class="form_control">
+                    <label for="aadharNo">Aadhar No </label>
+                    <input type="text" id="aadharNo" name="aadhar" placeholder="Enter Aadhar No....">
+                </div>
+
+                <div class="form-group">
+                    <label for="Driving skills">Driving License [Y/N]</label>
+                   <input type="text" id="drivingskills" name="drivingskill" placeholder="Enter Driving Skill....">
+                </div>
+                <div class="form-group">
+                    <label for="nature">Nature</label>
+                    <input type="text" name="nature" placeholder="extrovert">
+                </div>
+   
+                <div class="textaria_control">
+                    <label for="address">Area known by </label>
+                    <textarea name="AreaKnown" id="address" cols="50" rows="4" required></textarea>
+                </div>
+                <div class="form_control">
+                    <label for="Upload">Uplode image</label>
+                    <input type="file" id="Uplode" name="imgurl" required>
+                </div>
+            </div>
+            <div class="button_container">
+                <button type="submit"> Apply Now </button>
+            </div>
+        </form>
+        </h1>
+    </div>  
+</div>
+ 

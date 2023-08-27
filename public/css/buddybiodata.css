@@ -1,0 +1,119 @@
+#Buddyfulldata{
+    background-color: #f9f7f3;
+    margin: 3%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #EA814A;
+}
+.boxonecontent{
+    margin-top: 3%;
+}
+.buddyimage img{
+    width :250px ;
+    height: 250px;
+    margin-left: 20%;
+    border-radius: 50%;
+    border: 4px solid #EA814A ;
+}
+.aboutbuddybox {
+    margin-left: -150px;
+    margin-top: 20px;
+}
+.aboutbuddy{
+    line-height: 10px;
+}
+.aboutbuddy p:nth-child(3){
+    text-decoration: none;
+    
+}
+.aboutbuddy h3{
+    color: #EA814A;
+    font-weight: bold;
+}
+
+.profilebuttonbox{
+    margin-top: 4%;
+}
+.profilemsgbookbtn{
+    background-color: #EA814A;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.profilebuttonbox div:nth-child(2){
+    margin-left: -120px;
+}
+
+
+/* 2nd box start  */
+.boxtwocontent{
+    margin: 3% 5%;
+    background-color: antiquewhite;
+    padding: 10px 75px;
+    word-spacing: 5px;
+}
+
+.boxtwocontent div:nth-child(1){
+    margin-bottom: 1%;
+}
+.BuddyVal{
+    margin-left: 2%;
+}
+
+.boxthreecontent{
+    margin: 3% 5%;
+    background-color: antiquewhite;
+    padding: 10px 75px;
+}
+.headingboxthree{
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+.areadatalist {
+    margin-left: 3%;
+    margin-top: 20px;
+    line-height: 25px;
+    
+}
+
+.boxfourcontent{
+    margin: 3% 5%;
+    background-color: antiquewhite;
+    padding: 10px 75px;
+}
+
+.boxfourimagevideo{
+    height: 200px;
+    margin: 0 20px;
+}
+.boxfourimagevideo{
+    justify-content: space-around;
+}
+.boxfourimagevideo img{
+    height: 160px;
+    width: 200px;
+    box-shadow: 1px 1px 5px #838181;
+    margin-top: 20px;
+}
+
+/* Box 5 start  */
+
+.boxfivecontent{
+    margin: 3% 5%;
+    background-color: antiquewhite;
+    padding: 10px 75px;
+}
+
+.reviewList{
+    margin-left: 20px;
+}
+.reviewList ul li{
+    text-decoration: none;
+    list-style: square;
+}

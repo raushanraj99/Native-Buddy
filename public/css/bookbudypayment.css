@@ -1,0 +1,89 @@
+/* Styles for form container */
+.containers {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for form groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for labels */
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .paymentProcesstext{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0;
+    border: 2px solid #b5e2fa;
+    background-color: #b5e2fa;
+    justify-content: center;
+    
+  }
+  
+  /* Styles for input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styles for the 'Select a service' list */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Styles for the 'Select a service' list items */
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the 'Select a service' input */
+  #service {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styles for the submit button */
+  .Bookbtn {
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .Qrscanner img{
+    height: 150px;
+    width: 150px;
+  }
+
+
+  /* Hover effect for the submit button */
+  button[type="submit"]:hover {
+    background-color:chocolate;
+  }
+
+  
+  /* Styles for responsive design */
+  @media (max-width: 768px) {
+    .containers {
+      max-width: 100%;
+    }
+  }
+  

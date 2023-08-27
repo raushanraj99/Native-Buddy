@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E4EFF5;
+}
+/* Navbar  */
+.navTitle a h1{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.nav-cont a h1{
+    color: #EA814A;
+}
+#navbarSupportedContent ul li a{
+    color: #EA814A;
+}
+#navbarSupportedContent ul li a:hover{
+    color: #cd5c1f;
+}
+
+.signupbtn{
+    display: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-color:#EA814A;
+    color: #EA814A;
+}
+.signupbtn:hover{
+    background-color: #EA814A;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.profilepic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EA814A;
+    margin-left: 25px;
+    box-shadow: 1px 1px 5px #838181;
+}
+
+/* Profile image and name section */
+.prof-img img{
+    height: 100%;
+    width: 80%;
+}
+.prof-name h1{
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10%;
+    color:#181F2D;
+    background: linear-gradient(#EA814A, #cd5c1f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.prof-name p{
+    color: #EA814A;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Client and buddy we have  */
+.statistics{
+    height: 122px;
+    width: 100%;
+    background-color: #b5e2fa;
+    border-radius: 5px;
+    margin: 50px 0 auto;
+    padding: 10px 0;
+    color: #008080;
+}
+.statistics p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.servicelist{
+    line-height: 28px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+.statistics .row{
+    --bs-gutter-x: 0;
+}
+
+
+
+
+/* About me section  */
+#search-section{
+    background-color:#E4EFF5;
+}
+.search-me{
+    padding-top: 4%;
+    height: 145px;
+}
+.search-me h1{
+    font-size: 5vw;
+    color:#EA814A;
+    font-weight: bold;
+
+}
+.search-form input{
+    width: 60%;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #838181;
+    outline: #EA814A;
+}
+.search-form input:focus{
+    
+    box-shadow: 1px 1px 5px #EA814A;
+}
+
+/* Search botton  */
+.search-form button{
+    font-size: 1rem;
+    height: 40px;
+    min-width: 15%;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 2%;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 5px #1F2531;
+}
+.search-form button:hover{
+    background-color: #EA814A;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Skills Section  */
+.box-align{
+    display: flex;
+    justify-content: center;
+}
+
+.buddy-title{
+    padding-bottom: 3%;
+}
+.buddy-title h1{
+    color:#EA814A;
+    font-weight: bolder;
+}
+
+.buddy-image img{
+    margin-top: 5%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px #838181;
+    border: 2px solid #E4EFF5;
+}
+.buddyboxes{
+    /* border: 2px solid #EA814A; */
+    border-radius: 10px;
+    height: 310px;
+    width: 20%;
+    background-image: linear-gradient(#ebb192,#EA814A);
+    color: white;
+    transition: 0.4s;
+    line-height: 7px;
+    .buddybookbtn{
+        background-color: white;
+        color:#EA814A ;
+        font-weight: bold;
+    }
+    
+}
+.buddyboxes h3{
+    margin-top: -6px
+}
+.buddyboxes:hover{
+    border: 2px solid white;
+    box-shadow: 1px 1px 8px #EA814A;
+    background-color: #E4EFF5;
+}
+
+.buddyheadRegister{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+.buddyheadRegister p:nth-child(1){
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.buddyheadRegister a{
+    text-decoration: none;
+}
+.registerbuddy{
+    padding: 4px 9px;
+    width: 258px;
+    border-radius: 20px;
+    background-color: #EA814A;
+    color: white;
+    text-align: center;
+    border: 2px solid #e0692a;
+    box-shadow: 0 0 6px #dead93;
+}
+
+.registerbuddybtn{
+    border-radius: 0px 5px 15px 0px;
+    height: 50px;
+    width: 120px;
+    outline: none;
+    border:  none;
+    box-shadow: 1px 1px 5px #EA814A;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+.buddybookbtn{
+    border-radius: 20px;
+    background-color: #EA814A;
+    width: 95px;
+    height: 35px;
+    border: none;
+    box-shadow: 1px 1px 5px #838181;
+}
+
+
+/* Projects section  */
+#location-section {
+    margin-bottom: 5%;
+    background-color:#ECECEC;
+}
+
+.Project-card .card{
+    box-shadow: 1px 1px 5px #EA814A;
+    transition: 0.4s;
+    margin: 20px 0;
+    background-image: linear-gradient(to left,#ebb192,#EA814A);
+}
+
+.Project-card .card:hover{
+    border-color:#EA814A;
+    border-width: 2px;
+    /* color: #E4EFF5; */
+    /* background-image: linear-gradient(to left,#ebb192,#EA814A); */
+    box-shadow: 1px 1px 10px #E4EFF5;
+}
+
+.locationbutton{
+    border-radius: 20px;
+    padding: 3px 5px;
+    width: 90px;
+    border: none;
+    box-shadow: 1px 1px 5px #EA814A;
+}
+
+#location-section div h1{
+    font-size: 4rem;
+    color:#EA814A;
+}
+.proj-heading h1{
+    font-weight: bold;
+}
+.locationImage div h4{
+    font-weight: bold;
+}
+.locationImage div:nth-child(2) img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20%;
+    /* border: 5px solid #EA814A; */
+    border: 5px solid #ECECEC;
+    border-radius: 5px;
+
+}
+
+/* Contact us section  */
+.contactbackground{
+    color: rgb(49, 53, 13); 
+    /* background: linear-gradient( #ebb192,#EA814A ); */
+    width: 100%;
+}
+
+
+/* Contact us section  */
+.contact-text{
+    color: #EA814A;
+    font-size: 3vw;
+}
+
+.details{
+    margin-top: 11%;
+    /* padding: 10%; */
+    
+}
+.contactForm{
+    padding-bottom: 3%;
+}
+.contactsubmit{
+    width:120px;
+    height: 35px;
+    color: #ECECEC;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    background-color: #EA814A;
+    box-shadow: 1px 1px 4px #1F2531;
+}
+
+
+
+.social-tab a{
+    text-decoration: none;
+    font-style: normal;
+    color: #EA814A;
+    font-weight: bold;
+    justify-content: space-evenly;
+    
+}
+.social-tab{
+    background-blend-mode: color-dodge;
+    word-spacing: 30px;
+}
+.query-text{
+    color: #EA814A;
+}
+
+.address address{
+    color:#1F2531;
+}
+
+
+
+
+/* Buddy section  */
+.BuddySection{
+    font-weight: bold;
+    font-size: 50%;
+}
+.buddy-page-image img{
+    width: 55%;
+    border-radius: 50%;
+    margin: 5%;
+}
+.boddy-sectionheading h2{
+    font-weight: bold;
+}
+.contentbox{
+    margin-top: 6%;
+    position: relative;
+    left: -50px;
+    line-height: 45px;
+}
+.contentbox p{
+    font-size: 2rem;
+    margin-top: 6%;
+}
+
+.expriencebox{
+    padding: 2%;
+    background-color: #E4EFF5;
+}
+.expriencebox p{
+    font-size: 1rem;
+}
+.servicesgiven{
+    font-size: 2rem;
+}
+.servicesgiven ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* client review section  */
+#clientreview{
+    background-color: aliceblue;
+    padding: 5% 0;
+}
+
+.reviewinfo{
+    margin: 2% 8%;
+}
+.reviewinfo h2{
+    font-weight: bold;
+}
+.name span{
+    font-size: 30px;
+}

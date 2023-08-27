@@ -1,0 +1,37 @@
+
+
+<section id="buddy_section" class="py-2">
+      <div class="container buddy-title ">
+        <h1 class="text-center mt-3" >Buddy Available</h1>
+      <div class="row mt-4 box-align">
+        <div class="container buddy-title ">
+        <section class="buddyheadRegister">
+          <p>Jaipur | <span>12 : Buddy</span></p>
+          
+          <a href="/registerbuddy"><p class="registerbuddy">Register as buddy</p></a>
+        </section>
+      <div class="row mt-2 box-align">
+        {{!-- First service  --}}
+          
+        {{!-- {{#each val.link}} --}}
+        {{#each value}} 
+
+        <div class="col-md-2 m-3 buddyboxes">
+            <div class="card-box ">
+              <p class="buddy-image text-center"><img src="{{this.imgurl}}" alt="Buddy" /></p>
+              <h3 class="card-title text-center">{{this.Buddyname}}</h3>
+              <p class="text-center mt-2">{{this.nature}}</p>
+              <p class="text-center ">{{this.rating}}</p>
+              <div class="text-center">
+              <a href="/buddybiodata?id={{this._id}}"><button class="buddybookbtn">Book</button></a>
+
+              </div>
+            </div>
+        </div> 
+        
+        {{/each}}
+ 
+        </div>
+      </div>
+    </section>
+     

@@ -1,0 +1,26 @@
+<nav class="navbar border-bottom navbar-expand-lg py-3 ">
+  <div class="container nav-cont navTitle">
+    <a class="navbar-brand" href="/">
+             <h1>{{data.brandName}}</h1> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-lg-0">
+        {{#each data.links}} <!-- to repeat the loop we use #each and /each to stop(use of HPS) -->
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="{{this.url}}">{{this.label}} </a>
+        </li>
+        {{/each}} 
+        <button class="signupbtn" type="submit">Signup</button>
+        <div class="profilepic">
+        <a href="/user">
+        <img src="/static/images/kaif.jpeg" alt="">
+        </div>
+        </a>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+

@@ -1,0 +1,121 @@
+
+<section id="Buddyfulldata">
+  <div class="row">
+    <div class="biodatapage">
+      {{!-- 1st box start  --}}
+    <div class="row boxonecontent">
+      <div class="col-md-6">
+        <div class="buddyimage">
+          <img src="{{buddydata.imgurl}}" alt="Buddy1">
+        </div>
+      </div>
+      <div class="col-md-6 aboutbuddybox"> 
+        <div class="aboutbuddy">
+          <h3>{{buddydata.Buddyname}}</h3>
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>City: {{buddydata.city}}</p>
+          <p>County:{{buddydata.country}}</p>
+          <p>Email: <a href="mailto:{{buddydata.email}}">{{buddydata.email}}</a></p>
+          <p>Contact: <span>{{buddydata.contactNo}}</span></p>
+          <div class="row profilebuttonbox">
+            <div class="col-md-6">
+              <a href="mailto:its99raj@gmail.com">
+              <button class="profilemsgbookbtn">Send Message</button>
+              </a>
+              </div>
+            <div class="col-md-6"><a href="/bookbuddy"><button class="profilemsgbookbtn" >Book</button></a></div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    {{!-- 2nd Box start --}}
+    
+    <div class="row boxtwocontent">
+      <div class="col-md-12">
+       <b>About:</b>
+        <span class="BuddyVal">{{buddydata.Bio}} </span>
+      </div>
+      <div class="row dobGender">
+        <div class="col-md-4">
+          <span><b>DOB-</b></span> <span class="BuddyVal">{{buddydata.Dob}}</span>
+        </div>
+        <div class="col-md-4">
+          <span><b>Age :</b></span> <span class="BuddyVal">22</span>
+        </div>
+        <div class="col-md-4">
+          <span><b>Gender :</b></span> <span class="BuddyVal">{{buddydata.gender}}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <span><b>Hobbies:-</b></span> <span class="BuddyVal">{{buddydata.Hobby}}</span>
+        </div>
+      </div>
+    </div>
+
+    {{!-- 3rd Box start  --}}
+    
+    <div class="row boxthreecontent">
+      <div class="row">
+        <div class="col-md-12 headingboxthree">
+          <h3>  Area Known </h3>
+        </div>
+        <p>
+          {{buddydata.AreaKnown}}
+        </p>
+        {{!-- <div class="col-md-12 areadatalist">
+        <ol>
+          <li>Pachmadi</li>
+          <li>Ujjain</li>
+          <li>Mathura</li>
+          <li>Hawamahal</li>
+          <li>Indore</li>
+        </ol>
+
+        </div> --}}
+        
+      </div>
+    </div>
+
+    {{!-- 4th box start Post and image box --}}
+    <div class="row boxfourcontent">
+      <div class="row">
+        <div class="col-md-12"><h3>Experience</h3></div>
+        <div class="row boxfourimagevideo ">
+            <img src="/static/images/experienceimage/beach.jpg" alt="kaifimage">
+            <img src="/static/images/experienceimage/gatewayofindia.jpg" alt="kaifimage">
+            <img src="/static/images/experienceimage/golghar.jpg" alt="kaifimage">
+            <img src="/static/images/experienceimage/jaipurfort.jpg" alt="kaifimage">
+            <img src="/static/images/experienceimage/jalmahal.jpg" alt="kaifimage">
+            
+        </div>
+      </div>
+    </div>
+    
+    {{!-- 5th box start  --}}
+      <div class="row boxfivecontent">
+        <div class="col-md-12">
+          <div class="reviewtitle">
+            <h3>Review</h3>
+          </div>
+          <div class="reviewList">
+            <ul>
+              <li>Our buddy was incredibly knowledgeable about the local history, culture, and landmarks.</li>
+              <li>Good work, He was very friendly and knowlegeable about his locals </li>
+              <li>The buddy's communication skills were top-notch. They were not only fluent in multiple languages but also had a gift for storytelling, making the tour engaging and informative.</li>
+              <li>The buddy's communication skills were top-notch. They were not only fluent in multiple languages but also had a gift for storytelling, making the tour engaging and informative.</li>
+              <li>Our buddy had a warm and friendly demeanor that instantly put everyone at ease. They were open to questions and interacted with each member of our group, making the tour feel personalized.</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+</section>
+

@@ -1,0 +1,71 @@
+{{!-- Contact and social tabs --}}
+<div class="container text-center contactbackground mt-5">
+  <div class="row contactForm">
+    <div class="col-md-6 prof-img">
+      {{!-- contactform section --}}
+      <section id="contact_us_section" class="py-2">
+        <div class="container">
+          <h3 class="text-center contact-text">Contact us</h3>
+          <div class="row">
+            <div class="col-md-12">
+
+              <form action="/process-contact-form" method="post">
+                <div class="mb-2">
+                  {{!-- <label for="exampleInputEmail1" class="form-label">Your Email address</label> --}}
+                  <input name="email" type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Enter Email" required>
+                  <div id="emailHelp" class="form-text" style="color:rgb(137, 114, 84); ">We'll never share your
+                    personal
+                    details with anyone else.</div>
+                </div>
+
+                <div class="mb-3">
+                  {{!-- <label for="contactNumberField" class="form-label">Your Contact Number</label> --}}
+                  <input name="phone" type="number" class="form-control" id="exampleInputPassword1"
+                    placeholder="Enter contact number " required>
+                </div>
+
+                <div class="form-floating mt-2">
+                  <textarea name="query" style="height:250px;" class="form-control" placeholder="Enter your query here"
+                    id="queryField"></textarea>
+                  <label for="queryField" class="query-text">Your Message</label>
+                </div>
+
+                <div class="container text-center mt-3">
+                  <button type="submit" class="contactsubmit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+
+      </section> 
+    </div>
+    {{!-- right side section --}}
+    <div class="container text-center col-md-6 details">
+      {{!-- address --}}
+      <div class="row">
+        <div class="col-md-12 informationdata">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laborum eveniet neque pariatur et tempora vel, minus labore quod praesentium.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem facere veritatis ipsam culpa amet nobis error modi tempora, esse fuga magni impedit quo dolore voluptate repellat alias suscipit nesciunt unde!
+          <div class="address ">
+            <address>
+              Address : <span style="font-weight: bold;">Maansarovar</span> jaipur ,<br> Rajasthan <br> (80XXXX3).
+            </address>
+          </div>
+
+          {{!-- Social tabs and links --}}
+          <div class="social-tab mt-5">
+            <a href="https://www.linkedin.com/in/raushan-raj-devp/" target="_blank">Linkedin</a>
+            <a href="https://www.instagram.com/nativebuddy.india/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100009899351630" target="_blank">Facebook</a>
+          </div>
+
+        </div>
+        {{!-- Right side section ends --}}
+      </div>
+    </div>
+
+
+  </div>
+</div>

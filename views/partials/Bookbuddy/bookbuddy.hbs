@@ -1,0 +1,53 @@
+<div class="containers">
+    <form action="/buddypayment" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input name="touristname" type="text" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="chosenBuddy">Chosen Buddy</label>
+        <input name="chosbuddy" type="text" id="chosenBuddy" placeholder="Your chosen buddy name" required>
+      </div>
+      <div class="form-group">
+        <label for="languagePreferred">Language Preferred</label>
+        <input name="language" type="text" id="languagePreferred" placeholder="Language buddy should know" required>
+      </div>
+      {{!-- Gender  --}}
+      <div class="form-group">
+        <label for="genderprefered">Gender</label>
+        <label for="" class="radio inline">
+            <input type="radio" name="gender" value="male" >
+            <span>Male</span>
+        </label>
+        <label for="" class="radio inline">
+            <input type="radio" name="gender" value="female" >
+            <span>Male</span>
+        </label>
+
+      </div>
+
+
+      <div class="form-group">
+        <label for="services"><b>Services</b></label>
+            <ul>
+           <li>Personal Vehicle</li>
+           <li>Skillful Bargaining</li>
+           <li>Shopping Spree</li>
+           <li>Your Language Mediator</li>
+           <li>Any other</li>
+           <br>
+           <input type="text" name="service" id="service" placeholder="Choose services and add here " required>
+    </ul>
+      </div>
+      <div class="form-group">
+        <label for="duration">Booking Duration (hours/days)</label>
+        <input type="text" name="BookTime" id="duration" placeholder="Enter duration" required>
+      </div>
+      <div class="form-group">
+        <label for="Conatct">Contact Number </label>
+        <input type="text" name="contact" id="duration" placeholder="Enter your " required>
+      </div>
+      <p>Pay Rs. : <span>200 /-</span> &nbsp; <span class="Qrscanner"><img src="/static/images/paymentQr/Payment.jpeg" alt="QrScanner"></span></p>
+      <button type="submit" class="Bookbtn">Book</button>
+    </form>
+  </div>
