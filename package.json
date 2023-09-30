@@ -1,11 +1,11 @@
 {
   "name": "dynamic_website",
   "version": "1.0.0",
-  "description": "this is learning webstie",
+  "description": "this is native buddy project website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js -e js,hbs"
+    "start": "node app.js -e js,hbs"
   },
   "author": "",
   "license": "ISC",
