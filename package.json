@@ -1,11 +1,12 @@
 {
-  "name": "dynamic_website",
+  "name": "Native Buddy",
   "version": "1.0.0",
   "description": "this is native buddy project website",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js -e js,hbs"
+    "start": "node src/app.js -e js,hbs",
+    "dev":"node src/app.js -e js,hbs"
   },
   "author": "",
   "license": "ISC",
