@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "native-server",
-  "builds": [{ "src": "server.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
+  "name": "Native Buddy",
+  "builds": [{ "src": "app.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
 }
