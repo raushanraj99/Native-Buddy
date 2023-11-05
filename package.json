@@ -1,8 +1,8 @@
 {
-  "name": "dynamic_website",
+  "name": "Native-Buddy",
   "version": "1.0.0",
-  "description": "this is learning webstie",
-  "main": "index.js",
+  "description": "this is native buddy project website",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js -e js,hbs",
