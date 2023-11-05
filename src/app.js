@@ -30,7 +30,7 @@ const uri =`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD
 mongoose.connect(uri,()=>{
     console.log("db connected");
 
-
+    
 })
  
 

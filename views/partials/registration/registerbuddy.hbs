@@ -4,7 +4,8 @@
             Buddy Application Form
             <span class="title_small"></span>
         </h1>
-        <form action="/register-buddy" method="post" enctype="multipart/form-data">
+        {{!-- enctype="multipart/form-data" --}}
+        <form action="/register-buddy" method="post" >
             <div class="form_cointainer">
                 <div class="form_control">
                     <label for="First_Name">Full Name</label>
@@ -88,10 +89,10 @@
                     <label for="address">Area known by </label>
                     <textarea name="AreaKnown" id="address" cols="50" rows="4" required></textarea>
                 </div>
-                <div class="form_control">
+                {{!-- <div class="form_control">
                     <label for="Upload">Uplode image</label>
                     <input type="file" id="Uplode" name="imgurl" required>
-                </div>
+                </div> --}}
             </div>
             <div class="button_container">
                 <button type="submit"> Apply Now </button>

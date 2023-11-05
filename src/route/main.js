@@ -6,21 +6,21 @@ const { response } = require("express");
 const Contact = require("../models/Contact");
 const Skills = require("../models/SkillsTech");
 const routes = express.Router();
-const multer  = require('multer') // for uploading images
+// const multer  = require('multer') // for uploading images
 const Buddybooking = require("../models/buddybooking");
 
 // image storage buddy registeration
-const storage = multer.diskStorage({
-  destination:function(req,file,cb){
-    return cb(null, "./public/uploads")
-  },
-  filename:function(req,file,cb){
-    // return cb(null,`${Date.now()}-${file.originalname}`)
-    return cb(null,`${file.originalname}`)
-  },
-});
+// const storage = multer.diskStorage({
+//   destination:function(req,file,cb){
+//     return cb(null, "./public/uploads")
+//   },
+//   filename:function(req,file,cb){
+//     // return cb(null,`${Date.now()}-${file.originalname}`)
+//     return cb(null,`${file.originalname}`)
+//   },
+// });
 
-const upload = multer({storage:storage});
+// const upload = multer({storage:storage});
 
 
 // home page
@@ -115,17 +115,20 @@ routes.get("/bookbuddy", async (req, res) => {
 
 
 // All post method form submission
-
-routes.post("/register-buddy" ,upload.single('imgurl'),async(request,response)=>{
+// ,upload.single('imgurl')
+routes.post("/register-buddy" ,async(request,response)=>{
     console.log("Registered for the buddy")
     
-    console.log("Image name  "+ request.file.filename)
+    // console.log("Image name  "+ request.file.filename)
+
+
     
     try{
         const data = await Skills.create(request.body);
         // console.log("Image url : "+request.body.imgurl)
         // console.log("Data "+data);
         // response.redirect("/buddy");
+        res.redirect("/")
     }
     catch(e){
         console.log(e);
