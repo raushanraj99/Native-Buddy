@@ -82,6 +82,14 @@ routes.get("/registerbuddy", async (req, res) => {
     details:details[0],
   })
 });
+routes.get("/contact-us",async (req,res)=>{
+  const details = await Navbar.find({ _id: "64e3474f1c8f6e63df821419" });
+
+  //console.log(details[0])
+  res.render("contactus",{
+    details:details[0],
+  })
+})
 
 
 // user profile page
