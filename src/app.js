@@ -17,7 +17,6 @@ app.use(bodyParser.urlencoded({ // to parse the data in urlencoded form
 app.use('/static',express.static("public"));
 app.use('',routes) // to use from the main.js file, befor using this we have to use const routes  = requre ("some valuue") to import
 
-  
 // template engine
 app.set('view engine','hbs');
 app.set("views","views");
@@ -29,10 +28,8 @@ mongoose.set("strictQuery",true); // error resolves
 const uri =`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@portfolio.kqwrgpq.mongodb.net/Native-buddy`;
 mongoose.connect(uri,()=>{
     console.log("db connected");
-
-    
 })
- 
+
 
 app.listen(process.env.PORT | 5556,()=>{
     console.log("Server started at 5556 !");

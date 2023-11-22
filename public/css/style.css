@@ -404,3 +404,34 @@ body{
 .name span{
     font-size: 30px;
 }
+
+@media (max-width:600px) {
+
+    .prof-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .prof-name>h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .registerbuddy{
+        width: 10rem;
+        height: 50px;
+    }
+    .buddy-image img{
+        width: 100px;
+        height: 100px;        
+    }
+    .buddyboxes{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 10%;
+    }
+    .statistics{
+        height: 220px;
+    }
+}
