@@ -210,8 +210,8 @@ body{
     text-decoration: none;
 }
 .registerbuddy{
-    padding: 4px 9px;
-    width: 258px;
+    padding: 6px 20px;
+    font-size: 1.2rem;
     border-radius: 20px;
     background-color: #EA814A;
     color: white;
@@ -284,7 +284,6 @@ body{
 .locationImage div:nth-child(2) img{
     height: 100px;
     width: 100px;
-    margin-left: 20%;
     /* border: 5px solid #EA814A; */
     border: 5px solid #ECECEC;
     border-radius: 5px;
@@ -419,8 +418,12 @@ body{
         text-align: center;
     }
     .registerbuddy{
-        width: 10rem;
+        width: 15rem;
         height: 50px;
+        
+    }
+    .buddy-title>h1{
+        font-size: 2.4rem;
     }
     .buddy-image img{
         width: 100px;
@@ -433,5 +436,11 @@ body{
     }
     .statistics{
         height: 220px;
+    }
+    .buddyheadRegister{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 }
